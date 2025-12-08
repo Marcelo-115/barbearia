@@ -1,0 +1,135 @@
+/* ============================
+   RESPONSIVIDADE - MOBILE FIRST
+   ============================ */
+
+/* ----------- Telas até 1024px (tablets e notebooks pequenos) ----------- */
+
+@media (max-width: 1024px) {
+
+    header .conteiner {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    h1.titulo-banner {
+        font-size: 45px;
+        top: 55%;
+    }
+
+    .btn-social {
+        top: 75%;
+        left: 10%;
+    }
+}
+
+
+/* ----------- Telas até 768px (tablets pequenos) ----------- */
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    /* BANNER */
+    h1.titulo-banner {
+        font-size: 35px;
+        left: 5%;
+        top: 50%;
+    }
+
+    .btn-social {
+        flex-direction: column;   /* Botões viram coluna */
+        left: 5%;
+        top: 70%;
+    }
+
+    .btn-social a {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+
+/* ----------- Telas até 600px (CELULARES GRANDES) ----------- */
+
+@media (max-width: 600px) {
+
+    header .conteiner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    /* BANNER */
+    h1.titulo-banner {
+        font-size: 28px;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 90%;
+    }
+
+    .btn-social {
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 10px;
+    }
+
+    .btn-social a {
+        width: 150px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /* CARDS DE SERVIÇO */
+    .barra-social {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .card-social {
+        text-align: center;
+    }
+}
+
+
+/* ----------- Telas até 430px (CELULARES PEQUENOS) ----------- */
+
+@media (max-width: 430px) {
+
+    h1.titulo-banner {
+        font-size: 24px;
+        top: 38%;
+    }
+
+    .btn-social {
+        top: 58%;
+    }
+
+    .btn-social a {
+        font-size: 12px;
+        width: 140px;
+    }
+}

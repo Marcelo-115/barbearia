@@ -1,0 +1,64 @@
+section.banner{
+    padding: 40px 4%;
+}
+
+
+section .banner{
+    display: flex;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn-social{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translateY(-50%, 50%);
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    z-index: 10;
+}
+
+.btn-social a{
+    text-decoration: none;
+    background-color: #e19c33;
+    color: #000;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: 0.3s ;
+}
+
+.btn-social a:hover {
+    opacity: 1;
+}
+
+
+
+h1.titulo-banner{
+    position: absolute;
+    font-size:70px;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 60%;
+    left: 5%;
+    font-family: "Rubik Mono One";
+    text-shadow:
+    1px 1px 0 #e19c33,  /* Sombra para baixo e direita */
+    -1px 1px 0 #e19c33, /* Sombra para baixo e esquerda */
+     1px -1px 0 #e19c33, /* Sombra para cima e direita */
+    -1px -1px 0 #e19c33; 
+    ;
+}
