@@ -1,55 +1,105 @@
+/*SEÇÃO SOBRE*/
+section.sobre{
+    padding: 40px 4%;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+}
 
-section.serviços{
+.conteiner-sobre{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.indicadores{
+    display: flex;
+    justify-content: space-around;
+}
+
+.indicadores-txt span{
+    color:#e19c33;
+}
+
+.indicadores-txt p{
+    font-weight: bold;
+}
+
+/*FIM DA SEÇÃO SOBRE*/
+
+/*SEÇÃO SERVIÇOS*/
+/* SEÇÃO SERVIÇOS */
+.servicos {
     padding: 40px 4%;
     background-color: #e1e1e1;
 }
-/* CONTAINER DOS CARDS */
-.barra-social {
-    width: 80%;
-    padding: 40px 0;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-}
 
-/* CARD INDIVIDUAL */
-.card-social {
-    background: #ffffff;
-    padding: 20px 50px;
-    border-radius: 4px;
+.servicos__container {
+    max-width: 1080px;
+    margin: 0 auto;
     text-align: center;
-    width: 260px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
 
-/* ÍCONE */
-.card-social i {
-    font-size: 40px;
-    margin-bottom: 15px;
-    color: #000;
+
+
+.servicos__grid {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-/* TÍTULO */
-.card-social h4 {
-    font-size: 20px;
+/* CARD */
+.servico-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.servico-card:hover {
+    background-color: #f5f5f5;
+}
+
+.servico-card__icon img {
+    width: 70px;
+}
+
+.servico-card__content h4 {
+    margin-bottom: 5px;
+}
+
+.servico-card__content strong {
+    display: block;
+    margin-top: 8px;
     font-weight: 600;
-    margin-bottom: 8px;
-    color: #000;
 }
 
-/* LINHA DOURADA */
-.card-social .linha {
-    width: 60px;
-    height: 3px;
-    background: #d6a354;
-    margin: 0 auto 15px auto;
-    border-radius: 2px;
+.btn-contato{
+    padding-top: 25px;
 }
 
-/* TEXTO */
-.card-social p {
-    font-size: 15px;
-    color: #333;
-    margin-top: 10px;
+.btn-contato button{
+    width: 250px;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #e19c33;
+    border-radius: 12px;
+    border: none;
 }
+
+.btn-contato button:hover{
+    background-color: #e19b3384
+}
+
+/*FIM DA SEÇÃO SERVIÇOS*/
+
+
+

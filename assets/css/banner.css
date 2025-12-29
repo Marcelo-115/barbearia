@@ -56,9 +56,61 @@ h1.titulo-banner{
     left: 5%;
     font-family: "Rubik Mono One";
     text-shadow:
-    1px 1px 0 #e19c33,  /* Sombra para baixo e direita */
+    1px 5px 0 #e19b3371,  /* Sombra para baixo e direita */
     -1px 1px 0 #e19c33, /* Sombra para baixo e esquerda */
-     1px -1px 0 #e19c33, /* Sombra para cima e direita */
+     3px -1px 0 #e19b337b, /* Sombra para cima e direita */
     -1px -1px 0 #e19c33; 
     ;
+}
+
+
+
+/* CONTAINER DOS CARDS */
+
+
+.barra-social {
+    width: 100%;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+}
+
+/* CARD INDIVIDUAL */
+.card-social {
+    background: #ffffff;
+    padding: 20px 50px;
+    border-radius: 4px;
+    text-align: center;
+    width: 360px
+}
+
+/* ÍCONE */
+.card-social i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+/* TÍTULO */
+.card-social h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+/* LINHA DOURADA */
+.card-social .linha {
+    width: 60px;
+    height: 3px;
+    background: #d6a354;
+    margin: 0 auto 15px auto;
+    border-radius: 2px;
+}
+
+/* TEXTO */
+.card-social p {
+    font-size: 15px;
+    color: #333;
+    margin-top: 10px;
 }

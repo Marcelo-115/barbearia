@@ -48,6 +48,10 @@
         top: 50%;
     }
 
+    .barra-social{
+        width: 100%;
+    }
+
     .btn-social {
         flex-direction: column;   /* Botões viram coluna */
         left: 5%;
